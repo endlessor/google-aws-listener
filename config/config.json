@@ -1,0 +1,20 @@
+{
+  "ServerConfigurations": {
+    "Port": ":9000",
+    "InstanceName": "google-rtb-aws-us-east-1"
+  },
+  "Logger": {
+    "FileLocation": "log/app.log",
+    "Level": "info"
+  },
+  "FileUploader": {
+    "ChunkSize": 10000,
+    "LocalStorageDir": "data"
+  },
+  "AWS": {
+    "Region": "us-east-1",
+    "S3": {
+      "Bucket": "google-rtb-production-us-east-1"
+    }
+  }
+}
